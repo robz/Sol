@@ -1,0 +1,60 @@
+{
+  "bodies": [
+    {"name":"Sun","type":"star","parent":null,"diameterKm":1392700,"orbit":{"semiMajorAxisAu":0,"eccentricity":0,"periodDays":1,"omegaDeg":0,"meanAnomalyDeg":0},"color":[1,0.76,0.28,1],"discovery":"Visible to the naked eye","wiki":"Sun"},
+    {"name":"Mercury","type":"planet","parent":"Sun","diameterKm":4879,"orbit":{"semiMajorAxisAu":0.387098,"eccentricity":0.20563,"periodDays":87.969,"omegaDeg":77.46,"meanAnomalyDeg":174.8},"color":[0.72,0.70,0.66,1],"discovery":"Visible to the naked eye","wiki":"Mercury_(planet)"},
+    {"name":"Venus","type":"planet","parent":"Sun","diameterKm":12104,"orbit":{"semiMajorAxisAu":0.723332,"eccentricity":0.00677,"periodDays":224.701,"omegaDeg":131.77,"meanAnomalyDeg":50.4},"color":[0.95,0.74,0.42,1],"discovery":"Visible to the naked eye","wiki":"Venus"},
+    {"name":"Earth","type":"planet","parent":"Sun","diameterKm":12756,"orbit":{"semiMajorAxisAu":1,"eccentricity":0.01671,"periodDays":365.256,"omegaDeg":102.94,"meanAnomalyDeg":357.5},"color":[0.38,0.66,1,1],"discovery":"You are here","wiki":"Earth"},
+    {"name":"Mars","type":"planet","parent":"Sun","diameterKm":6792,"orbit":{"semiMajorAxisAu":1.523679,"eccentricity":0.09340,"periodDays":686.980,"omegaDeg":336.04,"meanAnomalyDeg":19.4},"color":[0.95,0.39,0.25,1],"discovery":"Visible to the naked eye","wiki":"Mars"},
+    {"name":"Jupiter","type":"planet","parent":"Sun","diameterKm":142984,"orbit":{"semiMajorAxisAu":5.2044,"eccentricity":0.0489,"periodDays":4332.59,"omegaDeg":14.75,"meanAnomalyDeg":20},"color":[0.90,0.68,0.49,1],"discovery":"Visible to the naked eye","wiki":"Jupiter"},
+    {"name":"Saturn","type":"planet","parent":"Sun","diameterKm":120536,"orbit":{"semiMajorAxisAu":9.5826,"eccentricity":0.0565,"periodDays":10759.22,"omegaDeg":92.43,"meanAnomalyDeg":317},"color":[0.92,0.80,0.55,1],"discovery":"Visible to the naked eye","wiki":"Saturn"},
+    {"name":"Uranus","type":"planet","parent":"Sun","diameterKm":51118,"orbit":{"semiMajorAxisAu":19.2184,"eccentricity":0.0463,"periodDays":30688.5,"omegaDeg":170.96,"meanAnomalyDeg":142.2},"color":[0.60,0.90,0.95,1],"discovery":"Discovered by William Herschel, 1781","wiki":"Uranus"},
+    {"name":"Neptune","type":"planet","parent":"Sun","diameterKm":49528,"orbit":{"semiMajorAxisAu":30.1104,"eccentricity":0.00946,"periodDays":60182,"omegaDeg":44.97,"meanAnomalyDeg":256.2},"color":[0.38,0.56,1,1],"discovery":"Discovered by prediction, then observed in 1846","wiki":"Neptune"},
+    {"name":"Ceres","type":"dwarf","parent":"Sun","diameterKm":939,"orbit":{"semiMajorAxisAu":2.768,"eccentricity":0.079,"periodDays":1681.6,"omegaDeg":73.6,"meanAnomalyDeg":95},"color":[0.70,0.64,0.58,1],"discovery":"Discovered by Giuseppe Piazzi, 1801","wiki":"Ceres_(dwarf_planet)"},
+    {"name":"Orcus","type":"dwarf","parent":"Sun","diameterKm":910,"orbit":{"semiMajorAxisAu":39.40,"eccentricity":0.220,"periodDays":90250,"omegaDeg":73,"meanAnomalyDeg":44},"color":[0.70,0.76,0.84,1],"discovery":"Discovered telescopically","wiki":"90482_Orcus"},
+    {"name":"Pluto-Charon barycenter","type":"barycenter","parent":"Sun","diameterKm":0,"orbit":{"semiMajorAxisAu":39.48,"eccentricity":0.249,"periodDays":90560,"omegaDeg":113.8,"meanAnomalyDeg":14},"color":[0.88,0.72,0.58,1],"discovery":"Discovered telescopically","hidden":true},
+    {"name":"Pluto","type":"dwarf","parent":"Pluto-Charon barycenter","diameterKm":2377,"orbit":{"semiMajorAxisAu":"derivedSystems.plutoCharon.plutoBarycentricSemiMajorAxisAu","eccentricity":0,"periodDays":6.387,"omegaDeg":0,"meanAnomalyDeg":180},"color":[0.88,0.72,0.58,1],"discovery":"Discovered by Clyde Tombaugh, 1930","wiki":"Pluto","orbitRef":"Pluto-Charon barycenter","infoParent":"Sun"},
+    {"name":"Haumea","type":"dwarf","parent":"Sun","diameterKm":1560,"orbit":{"semiMajorAxisAu":43.22,"eccentricity":0.191,"periodDays":103810,"omegaDeg":240,"meanAnomalyDeg":205},"color":[0.88,0.90,0.92,1],"discovery":"Discovered telescopically","wiki":"Haumea"},
+    {"name":"Quaoar","type":"dwarf","parent":"Sun","diameterKm":1110,"orbit":{"semiMajorAxisAu":43.69,"eccentricity":0.040,"periodDays":105470,"omegaDeg":156,"meanAnomalyDeg":286},"color":[0.74,0.65,0.58,1],"discovery":"Discovered telescopically","wiki":"50000_Quaoar"},
+    {"name":"Makemake","type":"dwarf","parent":"Sun","diameterKm":1430,"orbit":{"semiMajorAxisAu":45.56,"eccentricity":0.158,"periodDays":112300,"omegaDeg":296,"meanAnomalyDeg":165},"color":[0.95,0.79,0.63,1],"discovery":"Discovered telescopically","wiki":"Makemake"},
+    {"name":"Gonggong","type":"dwarf","parent":"Sun","diameterKm":1230,"orbit":{"semiMajorAxisAu":67.49,"eccentricity":0.503,"periodDays":202500,"omegaDeg":207,"meanAnomalyDeg":355},"color":[0.87,0.55,0.43,1],"discovery":"Discovered telescopically","wiki":"225088_Gonggong"},
+    {"name":"Eris","type":"dwarf","parent":"Sun","diameterKm":2326,"orbit":{"semiMajorAxisAu":67.86,"eccentricity":0.441,"periodDays":204200,"omegaDeg":151,"meanAnomalyDeg":205},"color":[0.88,0.90,1,1],"discovery":"Discovered telescopically","wiki":"Eris_(dwarf_planet)"},
+    {"name":"Sedna","type":"dwarf","parent":"Sun","diameterKm":995,"orbit":{"semiMajorAxisAu":506.8,"eccentricity":0.855,"periodDays":4160000,"omegaDeg":311,"meanAnomalyDeg":358},"color":[0.90,0.34,0.28,1],"discovery":"Discovered telescopically","wiki":"90377_Sedna"},
+    {"name":"Moon","type":"moon","parent":"Earth","diameterKm":3474,"orbit":{"semiMajorAxisAu":0.002569555,"eccentricity":0.0549,"periodDays":27.322,"omegaDeg":318,"meanAnomalyDeg":135},"color":[0.78,0.78,0.75,1],"discovery":"Visible to the naked eye","wiki":"Moon"},
+    {"name":"Phobos","type":"moon","parent":"Mars","diameterKm":22.5,"orbit":{"semiMajorAxisAu":0.000062675,"eccentricity":0.0151,"periodDays":0.3189,"omegaDeg":0,"meanAnomalyDeg":0},"color":[0.62,0.56,0.52,1],"discovery":"Discovered by Asaph Hall, 1877","wiki":"Phobos_(moon)"},
+    {"name":"Deimos","type":"moon","parent":"Mars","diameterKm":12.4,"orbit":{"semiMajorAxisAu":0.000156842,"eccentricity":0.0002,"periodDays":1.263,"omegaDeg":0,"meanAnomalyDeg":180},"color":[0.62,0.56,0.52,1],"discovery":"Discovered by Asaph Hall, 1877","wiki":"Deimos_(moon)"},
+    {"name":"Io","type":"moon","parent":"Jupiter","diameterKm":3643,"orbit":{"semiMajorAxisAu":0.002819,"eccentricity":0.0041,"periodDays":1.769,"omegaDeg":0,"meanAnomalyDeg":80},"color":[0.96,0.84,0.45,1],"discovery":"Discovered by Galileo Galilei, 1610","wiki":"Io_(moon)"},
+    {"name":"Europa","type":"moon","parent":"Jupiter","diameterKm":3122,"orbit":{"semiMajorAxisAu":0.004486,"eccentricity":0.009,"periodDays":3.551,"omegaDeg":0,"meanAnomalyDeg":150},"color":[0.82,0.77,0.65,1],"discovery":"Discovered by Galileo Galilei, 1610","wiki":"Europa_(moon)"},
+    {"name":"Ganymede","type":"moon","parent":"Jupiter","diameterKm":5268,"orbit":{"semiMajorAxisAu":0.007156,"eccentricity":0.0013,"periodDays":7.155,"omegaDeg":0,"meanAnomalyDeg":230},"color":[0.66,0.61,0.55,1],"discovery":"Discovered by Galileo Galilei, 1610","wiki":"Ganymede_(moon)"},
+    {"name":"Callisto","type":"moon","parent":"Jupiter","diameterKm":4821,"orbit":{"semiMajorAxisAu":0.012585,"eccentricity":0.0074,"periodDays":16.689,"omegaDeg":0,"meanAnomalyDeg":310},"color":[0.50,0.47,0.43,1],"discovery":"Discovered by Galileo Galilei, 1610","wiki":"Callisto_(moon)"},
+    {"name":"Tethys","type":"moon","parent":"Saturn","diameterKm":1062,"orbit":{"semiMajorAxisAu":0.001970,"eccentricity":0.0001,"periodDays":1.888,"omegaDeg":0,"meanAnomalyDeg":20},"color":[0.82,0.82,0.78,1],"discovery":"Discovered telescopically","wiki":"Tethys_(moon)"},
+    {"name":"Dione","type":"moon","parent":"Saturn","diameterKm":1123,"orbit":{"semiMajorAxisAu":0.002523,"eccentricity":0.0022,"periodDays":2.737,"omegaDeg":0,"meanAnomalyDeg":70},"color":[0.80,0.80,0.76,1],"discovery":"Discovered telescopically","wiki":"Dione_(moon)"},
+    {"name":"Rhea","type":"moon","parent":"Saturn","diameterKm":1528,"orbit":{"semiMajorAxisAu":0.003523,"eccentricity":0.001,"periodDays":4.518,"omegaDeg":0,"meanAnomalyDeg":140},"color":[0.76,0.76,0.73,1],"discovery":"Discovered telescopically","wiki":"Rhea_(moon)"},
+    {"name":"Titan","type":"moon","parent":"Saturn","diameterKm":5150,"orbit":{"semiMajorAxisAu":0.008168,"eccentricity":0.0288,"periodDays":15.945,"omegaDeg":0,"meanAnomalyDeg":210},"color":[0.91,0.66,0.35,1],"discovery":"Discovered by Christiaan Huygens, 1655","wiki":"Titan_(moon)"},
+    {"name":"Iapetus","type":"moon","parent":"Saturn","diameterKm":1469,"orbit":{"semiMajorAxisAu":0.023803,"eccentricity":0.0283,"periodDays":79.32,"omegaDeg":0,"meanAnomalyDeg":290},"color":[0.58,0.54,0.50,1],"discovery":"Discovered telescopically","wiki":"Iapetus_(moon)"},
+    {"name":"Ariel","type":"moon","parent":"Uranus","diameterKm":1158,"orbit":{"semiMajorAxisAu":0.001276,"eccentricity":0.0012,"periodDays":2.520,"omegaDeg":0,"meanAnomalyDeg":35},"color":[0.76,0.82,0.84,1],"discovery":"Discovered telescopically","wiki":"Ariel_(moon)"},
+    {"name":"Umbriel","type":"moon","parent":"Uranus","diameterKm":1169,"orbit":{"semiMajorAxisAu":0.001778,"eccentricity":0.0039,"periodDays":4.144,"omegaDeg":0,"meanAnomalyDeg":110},"color":[0.54,0.58,0.60,1],"discovery":"Discovered telescopically","wiki":"Umbriel_(moon)"},
+    {"name":"Titania","type":"moon","parent":"Uranus","diameterKm":1578,"orbit":{"semiMajorAxisAu":0.002917,"eccentricity":0.0011,"periodDays":8.706,"omegaDeg":0,"meanAnomalyDeg":190},"color":[0.68,0.74,0.76,1],"discovery":"Discovered telescopically","wiki":"Titania_(moon)"},
+    {"name":"Oberon","type":"moon","parent":"Uranus","diameterKm":1523,"orbit":{"semiMajorAxisAu":0.003901,"eccentricity":0.0014,"periodDays":13.463,"omegaDeg":0,"meanAnomalyDeg":270},"color":[0.62,0.66,0.68,1],"discovery":"Discovered telescopically","wiki":"Oberon_(moon)"},
+    {"name":"Triton","type":"moon","parent":"Neptune","diameterKm":2707,"orbit":{"semiMajorAxisAu":0.002371,"eccentricity":0.00002,"periodDays":5.877,"omegaDeg":0,"meanAnomalyDeg":75},"color":[0.78,0.82,0.90,1],"discovery":"Discovered telescopically","wiki":"Triton_(moon)"},
+    {"name":"Charon","type":"moon","parent":"Pluto-Charon barycenter","diameterKm":1212,"orbit":{"semiMajorAxisAu":"derivedSystems.plutoCharon.charonBarycentricSemiMajorAxisAu","eccentricity":0,"periodDays":6.387,"omegaDeg":0,"meanAnomalyDeg":0},"color":[0.67,0.61,0.57,1],"discovery":"Discovered telescopically","wiki":"Charon_(moon)","infoParent":"Pluto"},
+    {"name":"Halley’s Comet","type":"comet","parent":"Sun","diameterKm":11,"orbit":{"semiMajorAxisAu":17.834,"eccentricity":0.967,"periodDays":27501.465,"omegaDeg":111.3,"meanAnomalyDeg":0,"perihelionEpoch":"1986-02-09T00:00:00Z"},"color":[0.78,0.90,1,1],"discovery":"Known since antiquity; periodicity identified by Edmond Halley in 1705","wiki":"Halley's_Comet"},
+    {"name":"ʻOumuamua","type":"interstellar","parent":"Sun","diameterKm":0.2,"orbit":{"semiMajorAxisAu":1.269,"eccentricity":1.201,"periodDays":0,"omegaDeg":266.4,"meanAnomalyDeg":0,"perihelionEpoch":"2017-09-09T00:00:00Z"},"color":[1,0.72,0.42,1],"discovery":"Discovered in 2017, the first known interstellar object","wiki":"1I/ʻOumuamua","tier3":true}
+  ],
+  "bands": [
+    {"kind":"belt","center":"Sun","innerRadiusAu":2.06,"outerRadiusAu":3.27,"color":[0.72,0.67,0.60,0.075]},
+    {"kind":"belt","center":"Sun","innerRadiusAu":30,"outerRadiusAu":50,"color":[0.66,0.74,0.86,0.055]},
+    {"kind":"ring","center":"Jupiter","innerRadiusAu":0.000615,"outerRadiusAu":0.001511,"color":[0.88,0.82,0.72,0.09]},
+    {"kind":"ring","center":"Saturn","innerRadiusAu":0.000447,"outerRadiusAu":0.000937,"color":[0.93,0.88,0.76,0.16]},
+    {"kind":"ring","center":"Uranus","innerRadiusAu":0.000254,"outerRadiusAu":0.000342,"color":[0.72,0.88,0.92,0.10]},
+    {"kind":"ring","center":"Neptune","innerRadiusAu":0.000281,"outerRadiusAu":0.000421,"color":[0.70,0.76,0.95,0.09]}
+  ],
+  "derivedSystems": {
+    "plutoCharon": {
+      "separationKm": 19596,
+      "plutoMassKg": 1.303e22,
+      "charonMassKg": 1.586e21,
+      "plutoBarycentricSemiMajorAxisAu": 0.000014609,
+      "charonBarycentricSemiMajorAxisAu": 0.000116393
+    }
+  }
+}

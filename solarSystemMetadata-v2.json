@@ -1,0 +1,1392 @@
+{
+  "bodies": [
+    {
+      "name": "Sun",
+      "type": "star",
+      "parent": null,
+      "diameterKm": 1392700,
+      "orbit": {
+        "semiMajorAxisAu": 0,
+        "eccentricity": 0,
+        "periodDays": 1,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 0
+      },
+      "color": [
+        1,
+        0.76,
+        0.28,
+        1
+      ],
+      "discovery": "Visible to the naked eye",
+      "wiki": "Sun"
+    },
+    {
+      "name": "Mercury",
+      "type": "planet",
+      "parent": "Sun",
+      "diameterKm": 4879,
+      "orbit": {
+        "semiMajorAxisAu": 0.387098,
+        "eccentricity": 0.20563,
+        "periodDays": 87.969,
+        "omegaDeg": 77.46,
+        "meanAnomalyDeg": 174.8
+      },
+      "color": [
+        0.72,
+        0.7,
+        0.66,
+        1
+      ],
+      "discovery": "Visible to the naked eye",
+      "wiki": "Mercury_(planet)"
+    },
+    {
+      "name": "Venus",
+      "type": "planet",
+      "parent": "Sun",
+      "diameterKm": 12104,
+      "orbit": {
+        "semiMajorAxisAu": 0.723332,
+        "eccentricity": 0.00677,
+        "periodDays": 224.701,
+        "omegaDeg": 131.77,
+        "meanAnomalyDeg": 50.4
+      },
+      "color": [
+        0.95,
+        0.74,
+        0.42,
+        1
+      ],
+      "discovery": "Visible to the naked eye",
+      "wiki": "Venus"
+    },
+    {
+      "name": "Earth",
+      "type": "planet",
+      "parent": "Sun",
+      "diameterKm": 12756,
+      "orbit": {
+        "semiMajorAxisAu": 1,
+        "eccentricity": 0.01671,
+        "periodDays": 365.256,
+        "omegaDeg": 102.94,
+        "meanAnomalyDeg": 357.5
+      },
+      "color": [
+        0.38,
+        0.66,
+        1,
+        1
+      ],
+      "discovery": "You are here",
+      "wiki": "Earth"
+    },
+    {
+      "name": "Mars",
+      "type": "planet",
+      "parent": "Sun",
+      "diameterKm": 6792,
+      "orbit": {
+        "semiMajorAxisAu": 1.523679,
+        "eccentricity": 0.0934,
+        "periodDays": 686.98,
+        "omegaDeg": 336.04,
+        "meanAnomalyDeg": 19.4
+      },
+      "color": [
+        0.95,
+        0.39,
+        0.25,
+        1
+      ],
+      "discovery": "Visible to the naked eye",
+      "wiki": "Mars"
+    },
+    {
+      "name": "Jupiter",
+      "type": "planet",
+      "parent": "Sun",
+      "diameterKm": 142984,
+      "orbit": {
+        "semiMajorAxisAu": 5.2044,
+        "eccentricity": 0.0489,
+        "periodDays": 4332.59,
+        "omegaDeg": 14.75,
+        "meanAnomalyDeg": 20
+      },
+      "color": [
+        0.9,
+        0.68,
+        0.49,
+        1
+      ],
+      "discovery": "Visible to the naked eye",
+      "wiki": "Jupiter"
+    },
+    {
+      "name": "Saturn",
+      "type": "planet",
+      "parent": "Sun",
+      "diameterKm": 120536,
+      "orbit": {
+        "semiMajorAxisAu": 9.5826,
+        "eccentricity": 0.0565,
+        "periodDays": 10759.22,
+        "omegaDeg": 92.43,
+        "meanAnomalyDeg": 317
+      },
+      "color": [
+        0.92,
+        0.8,
+        0.55,
+        1
+      ],
+      "discovery": "Visible to the naked eye",
+      "wiki": "Saturn"
+    },
+    {
+      "name": "Uranus",
+      "type": "planet",
+      "parent": "Sun",
+      "diameterKm": 51118,
+      "orbit": {
+        "semiMajorAxisAu": 19.2184,
+        "eccentricity": 0.0463,
+        "periodDays": 30688.5,
+        "omegaDeg": 170.96,
+        "meanAnomalyDeg": 142.2
+      },
+      "color": [
+        0.6,
+        0.9,
+        0.95,
+        1
+      ],
+      "discovery": "Discovered by William Herschel, 1781",
+      "wiki": "Uranus"
+    },
+    {
+      "name": "Neptune",
+      "type": "planet",
+      "parent": "Sun",
+      "diameterKm": 49528,
+      "orbit": {
+        "semiMajorAxisAu": 30.1104,
+        "eccentricity": 0.00946,
+        "periodDays": 60182,
+        "omegaDeg": 44.97,
+        "meanAnomalyDeg": 256.2
+      },
+      "color": [
+        0.38,
+        0.56,
+        1,
+        1
+      ],
+      "discovery": "Discovered by prediction, then observed in 1846",
+      "wiki": "Neptune"
+    },
+    {
+      "name": "Ceres",
+      "type": "dwarf",
+      "parent": "Sun",
+      "diameterKm": 939,
+      "orbit": {
+        "semiMajorAxisAu": 2.768,
+        "eccentricity": 0.079,
+        "periodDays": 1681.6,
+        "omegaDeg": 73.6,
+        "meanAnomalyDeg": 95
+      },
+      "color": [
+        0.7,
+        0.64,
+        0.58,
+        1
+      ],
+      "discovery": "Discovered by Giuseppe Piazzi, 1801",
+      "wiki": "Ceres_(dwarf_planet)"
+    },
+    {
+      "name": "Orcus",
+      "type": "dwarf",
+      "parent": "Sun",
+      "diameterKm": 910,
+      "orbit": {
+        "semiMajorAxisAu": 39.4,
+        "eccentricity": 0.22,
+        "periodDays": 90250,
+        "omegaDeg": 73,
+        "meanAnomalyDeg": 44
+      },
+      "color": [
+        0.7,
+        0.76,
+        0.84,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "90482_Orcus"
+    },
+    {
+      "name": "Pluto-Charon barycenter",
+      "type": "barycenter",
+      "parent": "Sun",
+      "diameterKm": 0,
+      "orbit": {
+        "semiMajorAxisAu": 39.48,
+        "eccentricity": 0.249,
+        "periodDays": 90560,
+        "omegaDeg": 113.8,
+        "meanAnomalyDeg": 14
+      },
+      "color": [
+        0.88,
+        0.72,
+        0.58,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "hidden": true
+    },
+    {
+      "name": "Pluto",
+      "type": "dwarf",
+      "parent": "Pluto-Charon barycenter",
+      "diameterKm": 2377,
+      "orbit": {
+        "semiMajorAxisAu": "derivedSystems.plutoCharon.plutoBarycentricSemiMajorAxisAu",
+        "eccentricity": 0,
+        "periodDays": 6.387,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 180
+      },
+      "color": [
+        0.88,
+        0.72,
+        0.58,
+        1
+      ],
+      "discovery": "Discovered by Clyde Tombaugh, 1930",
+      "wiki": "Pluto",
+      "orbitRef": "Pluto-Charon barycenter",
+      "infoParent": "Sun"
+    },
+    {
+      "name": "Haumea",
+      "type": "dwarf",
+      "parent": "Sun",
+      "diameterKm": 1560,
+      "orbit": {
+        "semiMajorAxisAu": 43.22,
+        "eccentricity": 0.191,
+        "periodDays": 103810,
+        "omegaDeg": 240,
+        "meanAnomalyDeg": 205
+      },
+      "color": [
+        0.88,
+        0.9,
+        0.92,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Haumea"
+    },
+    {
+      "name": "Quaoar",
+      "type": "dwarf",
+      "parent": "Sun",
+      "diameterKm": 1110,
+      "orbit": {
+        "semiMajorAxisAu": 43.69,
+        "eccentricity": 0.04,
+        "periodDays": 105470,
+        "omegaDeg": 156,
+        "meanAnomalyDeg": 286
+      },
+      "color": [
+        0.74,
+        0.65,
+        0.58,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "50000_Quaoar"
+    },
+    {
+      "name": "Makemake",
+      "type": "dwarf",
+      "parent": "Sun",
+      "diameterKm": 1430,
+      "orbit": {
+        "semiMajorAxisAu": 45.56,
+        "eccentricity": 0.158,
+        "periodDays": 112300,
+        "omegaDeg": 296,
+        "meanAnomalyDeg": 165
+      },
+      "color": [
+        0.95,
+        0.79,
+        0.63,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Makemake"
+    },
+    {
+      "name": "Gonggong",
+      "type": "dwarf",
+      "parent": "Sun",
+      "diameterKm": 1230,
+      "orbit": {
+        "semiMajorAxisAu": 67.49,
+        "eccentricity": 0.503,
+        "periodDays": 202500,
+        "omegaDeg": 207,
+        "meanAnomalyDeg": 355
+      },
+      "color": [
+        0.87,
+        0.55,
+        0.43,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "225088_Gonggong"
+    },
+    {
+      "name": "Eris",
+      "type": "dwarf",
+      "parent": "Sun",
+      "diameterKm": 2326,
+      "orbit": {
+        "semiMajorAxisAu": 67.86,
+        "eccentricity": 0.441,
+        "periodDays": 204200,
+        "omegaDeg": 151,
+        "meanAnomalyDeg": 205
+      },
+      "color": [
+        0.88,
+        0.9,
+        1,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Eris_(dwarf_planet)"
+    },
+    {
+      "name": "Sedna",
+      "type": "dwarf",
+      "parent": "Sun",
+      "diameterKm": 995,
+      "orbit": {
+        "semiMajorAxisAu": 506.8,
+        "eccentricity": 0.855,
+        "periodDays": 4160000,
+        "omegaDeg": 311,
+        "meanAnomalyDeg": 358
+      },
+      "color": [
+        0.9,
+        0.34,
+        0.28,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "90377_Sedna"
+    },
+    {
+      "name": "Moon",
+      "type": "moon",
+      "parent": "Earth",
+      "diameterKm": 3474,
+      "orbit": {
+        "semiMajorAxisAu": 0.002569555,
+        "eccentricity": 0.0549,
+        "periodDays": 27.322,
+        "omegaDeg": 318,
+        "meanAnomalyDeg": 135
+      },
+      "color": [
+        0.78,
+        0.78,
+        0.75,
+        1
+      ],
+      "discovery": "Visible to the naked eye",
+      "wiki": "Moon"
+    },
+    {
+      "name": "Phobos",
+      "type": "moon",
+      "parent": "Mars",
+      "diameterKm": 22.5,
+      "orbit": {
+        "semiMajorAxisAu": 6.2675e-05,
+        "eccentricity": 0.0151,
+        "periodDays": 0.3189,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 0
+      },
+      "color": [
+        0.62,
+        0.56,
+        0.52,
+        1
+      ],
+      "discovery": "Discovered by Asaph Hall, 1877",
+      "wiki": "Phobos_(moon)"
+    },
+    {
+      "name": "Deimos",
+      "type": "moon",
+      "parent": "Mars",
+      "diameterKm": 12.4,
+      "orbit": {
+        "semiMajorAxisAu": 0.000156842,
+        "eccentricity": 0.0002,
+        "periodDays": 1.263,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 180
+      },
+      "color": [
+        0.62,
+        0.56,
+        0.52,
+        1
+      ],
+      "discovery": "Discovered by Asaph Hall, 1877",
+      "wiki": "Deimos_(moon)"
+    },
+    {
+      "name": "Io",
+      "type": "moon",
+      "parent": "Jupiter",
+      "diameterKm": 3643,
+      "orbit": {
+        "semiMajorAxisAu": 0.002819,
+        "eccentricity": 0.0041,
+        "periodDays": 1.769,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 80
+      },
+      "color": [
+        0.96,
+        0.84,
+        0.45,
+        1
+      ],
+      "discovery": "Discovered by Galileo Galilei, 1610",
+      "wiki": "Io_(moon)"
+    },
+    {
+      "name": "Europa",
+      "type": "moon",
+      "parent": "Jupiter",
+      "diameterKm": 3122,
+      "orbit": {
+        "semiMajorAxisAu": 0.004486,
+        "eccentricity": 0.009,
+        "periodDays": 3.551,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 150
+      },
+      "color": [
+        0.82,
+        0.77,
+        0.65,
+        1
+      ],
+      "discovery": "Discovered by Galileo Galilei, 1610",
+      "wiki": "Europa_(moon)"
+    },
+    {
+      "name": "Ganymede",
+      "type": "moon",
+      "parent": "Jupiter",
+      "diameterKm": 5268,
+      "orbit": {
+        "semiMajorAxisAu": 0.007156,
+        "eccentricity": 0.0013,
+        "periodDays": 7.155,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 230
+      },
+      "color": [
+        0.66,
+        0.61,
+        0.55,
+        1
+      ],
+      "discovery": "Discovered by Galileo Galilei, 1610",
+      "wiki": "Ganymede_(moon)"
+    },
+    {
+      "name": "Callisto",
+      "type": "moon",
+      "parent": "Jupiter",
+      "diameterKm": 4821,
+      "orbit": {
+        "semiMajorAxisAu": 0.012585,
+        "eccentricity": 0.0074,
+        "periodDays": 16.689,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 310
+      },
+      "color": [
+        0.5,
+        0.47,
+        0.43,
+        1
+      ],
+      "discovery": "Discovered by Galileo Galilei, 1610",
+      "wiki": "Callisto_(moon)"
+    },
+    {
+      "name": "Tethys",
+      "type": "moon",
+      "parent": "Saturn",
+      "diameterKm": 1062,
+      "orbit": {
+        "semiMajorAxisAu": 0.00197,
+        "eccentricity": 0.0001,
+        "periodDays": 1.888,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 20
+      },
+      "color": [
+        0.82,
+        0.82,
+        0.78,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Tethys_(moon)"
+    },
+    {
+      "name": "Dione",
+      "type": "moon",
+      "parent": "Saturn",
+      "diameterKm": 1123,
+      "orbit": {
+        "semiMajorAxisAu": 0.002523,
+        "eccentricity": 0.0022,
+        "periodDays": 2.737,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 70
+      },
+      "color": [
+        0.8,
+        0.8,
+        0.76,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Dione_(moon)"
+    },
+    {
+      "name": "Rhea",
+      "type": "moon",
+      "parent": "Saturn",
+      "diameterKm": 1528,
+      "orbit": {
+        "semiMajorAxisAu": 0.003523,
+        "eccentricity": 0.001,
+        "periodDays": 4.518,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 140
+      },
+      "color": [
+        0.76,
+        0.76,
+        0.73,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Rhea_(moon)"
+    },
+    {
+      "name": "Titan",
+      "type": "moon",
+      "parent": "Saturn",
+      "diameterKm": 5150,
+      "orbit": {
+        "semiMajorAxisAu": 0.008168,
+        "eccentricity": 0.0288,
+        "periodDays": 15.945,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 210
+      },
+      "color": [
+        0.91,
+        0.66,
+        0.35,
+        1
+      ],
+      "discovery": "Discovered by Christiaan Huygens, 1655",
+      "wiki": "Titan_(moon)"
+    },
+    {
+      "name": "Iapetus",
+      "type": "moon",
+      "parent": "Saturn",
+      "diameterKm": 1469,
+      "orbit": {
+        "semiMajorAxisAu": 0.023803,
+        "eccentricity": 0.0283,
+        "periodDays": 79.32,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 290
+      },
+      "color": [
+        0.58,
+        0.54,
+        0.5,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Iapetus_(moon)"
+    },
+    {
+      "name": "Ariel",
+      "type": "moon",
+      "parent": "Uranus",
+      "diameterKm": 1158,
+      "orbit": {
+        "semiMajorAxisAu": 0.001276,
+        "eccentricity": 0.0012,
+        "periodDays": 2.52,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 35
+      },
+      "color": [
+        0.76,
+        0.82,
+        0.84,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Ariel_(moon)"
+    },
+    {
+      "name": "Umbriel",
+      "type": "moon",
+      "parent": "Uranus",
+      "diameterKm": 1169,
+      "orbit": {
+        "semiMajorAxisAu": 0.001778,
+        "eccentricity": 0.0039,
+        "periodDays": 4.144,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 110
+      },
+      "color": [
+        0.54,
+        0.58,
+        0.6,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Umbriel_(moon)"
+    },
+    {
+      "name": "Titania",
+      "type": "moon",
+      "parent": "Uranus",
+      "diameterKm": 1578,
+      "orbit": {
+        "semiMajorAxisAu": 0.002917,
+        "eccentricity": 0.0011,
+        "periodDays": 8.706,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 190
+      },
+      "color": [
+        0.68,
+        0.74,
+        0.76,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Titania_(moon)"
+    },
+    {
+      "name": "Oberon",
+      "type": "moon",
+      "parent": "Uranus",
+      "diameterKm": 1523,
+      "orbit": {
+        "semiMajorAxisAu": 0.003901,
+        "eccentricity": 0.0014,
+        "periodDays": 13.463,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 270
+      },
+      "color": [
+        0.62,
+        0.66,
+        0.68,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Oberon_(moon)"
+    },
+    {
+      "name": "Triton",
+      "type": "moon",
+      "parent": "Neptune",
+      "diameterKm": 2707,
+      "orbit": {
+        "semiMajorAxisAu": 0.002371,
+        "eccentricity": 2e-05,
+        "periodDays": 5.877,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 75
+      },
+      "color": [
+        0.78,
+        0.82,
+        0.9,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Triton_(moon)"
+    },
+    {
+      "name": "Charon",
+      "type": "moon",
+      "parent": "Pluto-Charon barycenter",
+      "diameterKm": 1212,
+      "orbit": {
+        "semiMajorAxisAu": "derivedSystems.plutoCharon.charonBarycentricSemiMajorAxisAu",
+        "eccentricity": 0,
+        "periodDays": 6.387,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 0
+      },
+      "color": [
+        0.67,
+        0.61,
+        0.57,
+        1
+      ],
+      "discovery": "Discovered telescopically",
+      "wiki": "Charon_(moon)",
+      "infoParent": "Pluto"
+    },
+    {
+      "name": "Halley’s Comet",
+      "type": "comet",
+      "parent": "Sun",
+      "diameterKm": 11,
+      "orbit": {
+        "semiMajorAxisAu": 17.834,
+        "eccentricity": 0.967,
+        "periodDays": 27501.465,
+        "omegaDeg": 111.3,
+        "meanAnomalyDeg": 0,
+        "perihelionEpoch": "1986-02-09T00:00:00Z"
+      },
+      "color": [
+        0.78,
+        0.9,
+        1,
+        1
+      ],
+      "discovery": "Known since antiquity; periodicity identified by Edmond Halley in 1705",
+      "wiki": "Halley's_Comet"
+    },
+    {
+      "name": "ʻOumuamua",
+      "type": "interstellar",
+      "parent": "Sun",
+      "diameterKm": 0.2,
+      "orbit": {
+        "semiMajorAxisAu": 1.269,
+        "eccentricity": 1.201,
+        "periodDays": 0,
+        "omegaDeg": 266.4,
+        "meanAnomalyDeg": 0,
+        "perihelionEpoch": "2017-09-09T00:00:00Z"
+      },
+      "color": [
+        1,
+        0.72,
+        0.42,
+        1
+      ],
+      "discovery": "Discovered in 2017, the first known interstellar object",
+      "wiki": "1I/ʻOumuamua",
+      "tier3": true
+    },
+    {
+      "name": "Mimas",
+      "type": "moon",
+      "parent": "Saturn",
+      "diameterKm": 396.4,
+      "orbit": {
+        "semiMajorAxisAu": 0.00124025161,
+        "eccentricity": 0.0196,
+        "periodDays": 0.942422,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 330
+      },
+      "color": [
+        0.78,
+        0.78,
+        0.74,
+        1
+      ],
+      "discovery": "Discovered by William Herschel, 1789",
+      "wiki": "Mimas_(moon)"
+    },
+    {
+      "name": "Enceladus",
+      "type": "moon",
+      "parent": "Saturn",
+      "diameterKm": 504.2,
+      "orbit": {
+        "semiMajorAxisAu": 0.001591179065,
+        "eccentricity": 0.0047,
+        "periodDays": 1.370218,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 350
+      },
+      "color": [
+        0.92,
+        0.94,
+        0.93,
+        1
+      ],
+      "discovery": "Discovered by William Herschel, 1789",
+      "wiki": "Enceladus"
+    },
+    {
+      "name": "Miranda",
+      "type": "moon",
+      "parent": "Uranus",
+      "diameterKm": 471.6,
+      "orbit": {
+        "semiMajorAxisAu": 0.000864918728,
+        "eccentricity": 0.0013,
+        "periodDays": 1.413479,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 10
+      },
+      "color": [
+        0.7,
+        0.76,
+        0.78,
+        1
+      ],
+      "discovery": "Discovered by Gerard Kuiper, 1948",
+      "wiki": "Miranda_(moon)"
+    },
+    {
+      "name": "Styx",
+      "type": "moon",
+      "parent": "Pluto-Charon barycenter",
+      "diameterKm": 10,
+      "orbit": {
+        "semiMajorAxisAu": 0.000285137748,
+        "eccentricity": 0.005,
+        "periodDays": 20.16155,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 45
+      },
+      "color": [
+        0.63,
+        0.59,
+        0.55,
+        1
+      ],
+      "discovery": "Discovered with Hubble Space Telescope imagery, 2012",
+      "wiki": "Styx_(moon)",
+      "infoParent": "Pluto"
+    },
+    {
+      "name": "Nix",
+      "type": "moon",
+      "parent": "Pluto-Charon barycenter",
+      "diameterKm": 40,
+      "orbit": {
+        "semiMajorAxisAu": 0.000325499285,
+        "eccentricity": 0.003,
+        "periodDays": 24.85463,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 120
+      },
+      "color": [
+        0.67,
+        0.62,
+        0.57,
+        1
+      ],
+      "discovery": "Discovered with Hubble Space Telescope imagery, 2005",
+      "wiki": "Nix_(moon)",
+      "infoParent": "Pluto"
+    },
+    {
+      "name": "Kerberos",
+      "type": "moon",
+      "parent": "Pluto-Charon barycenter",
+      "diameterKm": 12,
+      "orbit": {
+        "semiMajorAxisAu": 0.000386255498,
+        "eccentricity": 0.003,
+        "periodDays": 32.16756,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 210
+      },
+      "color": [
+        0.58,
+        0.55,
+        0.52,
+        1
+      ],
+      "discovery": "Discovered with Hubble Space Telescope imagery, 2011",
+      "wiki": "Kerberos_(moon)",
+      "infoParent": "Pluto"
+    },
+    {
+      "name": "Hydra",
+      "type": "moon",
+      "parent": "Pluto-Charon barycenter",
+      "diameterKm": 43,
+      "orbit": {
+        "semiMajorAxisAu": 0.000432746801,
+        "eccentricity": 0.005,
+        "periodDays": 38.20177,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 300
+      },
+      "color": [
+        0.66,
+        0.62,
+        0.58,
+        1
+      ],
+      "discovery": "Discovered with Hubble Space Telescope imagery, 2005",
+      "wiki": "Hydra_(moon)",
+      "infoParent": "Pluto"
+    },
+    {
+      "name": "Vanth",
+      "type": "moon",
+      "parent": "Orcus",
+      "diameterKm": 443,
+      "orbit": {
+        "semiMajorAxisAu": 6.0361822e-05,
+        "eccentricity": 0.007,
+        "periodDays": 9.5393,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 60
+      },
+      "color": [
+        0.6,
+        0.62,
+        0.66,
+        1
+      ],
+      "discovery": "Discovered telescopically, 2005",
+      "wiki": "Vanth_(moon)"
+    },
+    {
+      "name": "Hiʻiaka",
+      "type": "moon",
+      "parent": "Haumea",
+      "diameterKm": 320,
+      "orbit": {
+        "semiMajorAxisAu": 0.000333427206,
+        "eccentricity": 0.0513,
+        "periodDays": 49.12,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 100
+      },
+      "color": [
+        0.88,
+        0.92,
+        0.96,
+        1
+      ],
+      "discovery": "Discovered by the Keck Observatory adaptive optics team, 2005",
+      "wiki": "Hiʻiaka_(moon)"
+    },
+    {
+      "name": "Namaka",
+      "type": "moon",
+      "parent": "Haumea",
+      "diameterKm": 150,
+      "orbit": {
+        "semiMajorAxisAu": 0.000170497079,
+        "eccentricity": 0.2179,
+        "periodDays": 18.2783,
+        "omegaDeg": 118.35,
+        "meanAnomalyDeg": 185.19
+      },
+      "color": [
+        0.78,
+        0.82,
+        0.86,
+        1
+      ],
+      "discovery": "Discovered by the Keck Observatory adaptive optics team, 2005",
+      "wiki": "Namaka_(moon)"
+    },
+    {
+      "name": "Weywot",
+      "type": "moon",
+      "parent": "Quaoar",
+      "diameterKm": 165,
+      "orbit": {
+        "semiMajorAxisAu": 8.8905009e-05,
+        "eccentricity": 0.05,
+        "periodDays": 12.4,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 75
+      },
+      "color": [
+        0.35,
+        0.31,
+        0.28,
+        1
+      ],
+      "discovery": "Discovered with the Hubble Space Telescope, 2006",
+      "wiki": "Weywot"
+    },
+    {
+      "name": "Dysnomia",
+      "type": "moon",
+      "parent": "Eris",
+      "diameterKm": 700,
+      "orbit": {
+        "semiMajorAxisAu": 0.000249154616,
+        "eccentricity": 0.0062,
+        "periodDays": 15.785899,
+        "omegaDeg": 0,
+        "meanAnomalyDeg": 140
+      },
+      "color": [
+        0.78,
+        0.8,
+        0.88,
+        1
+      ],
+      "discovery": "Discovered using Keck Observatory adaptive optics, 2005",
+      "wiki": "Dysnomia_(moon)"
+    },
+    {
+      "name": "Vesta",
+      "type": "asteroid",
+      "parent": "Sun",
+      "diameterKm": 525.4,
+      "orbit": {
+        "semiMajorAxisAu": 2.3618,
+        "eccentricity": 0.0887,
+        "periodDays": 1325.75,
+        "omegaDeg": 151.2,
+        "meanAnomalyDeg": 20
+      },
+      "color": [
+        0.72,
+        0.68,
+        0.62,
+        1
+      ],
+      "discovery": "Discovered by Heinrich Wilhelm Olbers, 1807",
+      "wiki": "4_Vesta"
+    },
+    {
+      "name": "Pallas",
+      "type": "asteroid",
+      "parent": "Sun",
+      "diameterKm": 513,
+      "orbit": {
+        "semiMajorAxisAu": 2.772,
+        "eccentricity": 0.2302,
+        "periodDays": 1685.87,
+        "omegaDeg": 310.87,
+        "meanAnomalyDeg": 40.6
+      },
+      "color": [
+        0.68,
+        0.66,
+        0.62,
+        1
+      ],
+      "discovery": "Discovered by Heinrich Wilhelm Olbers, 1802",
+      "wiki": "2_Pallas"
+    },
+    {
+      "name": "Hygiea",
+      "type": "asteroid",
+      "parent": "Sun",
+      "diameterKm": 434,
+      "orbit": {
+        "semiMajorAxisAu": 3.1415,
+        "eccentricity": 0.1125,
+        "periodDays": 2033.8,
+        "omegaDeg": 312.4,
+        "meanAnomalyDeg": 170
+      },
+      "color": [
+        0.48,
+        0.46,
+        0.43,
+        1
+      ],
+      "discovery": "Discovered by Annibale de Gasparis, 1849",
+      "wiki": "10_Hygiea"
+    },
+    {
+      "name": "Psyche",
+      "type": "asteroid",
+      "parent": "Sun",
+      "diameterKm": 220,
+      "orbit": {
+        "semiMajorAxisAu": 2.922,
+        "eccentricity": 0.134,
+        "periodDays": 1825,
+        "omegaDeg": 229,
+        "meanAnomalyDeg": 95
+      },
+      "color": [
+        0.62,
+        0.58,
+        0.52,
+        1
+      ],
+      "discovery": "Discovered by Annibale de Gasparis, 1852",
+      "wiki": "16_Psyche"
+    },
+    {
+      "name": "Bennu",
+      "type": "asteroid",
+      "parent": "Sun",
+      "diameterKm": 0.492,
+      "orbit": {
+        "semiMajorAxisAu": 1.126,
+        "eccentricity": 0.204,
+        "periodDays": 436.65,
+        "omegaDeg": 66.2,
+        "meanAnomalyDeg": 101
+      },
+      "color": [
+        0.36,
+        0.34,
+        0.32,
+        1
+      ],
+      "discovery": "Discovered by the LINEAR survey, 1999; OSIRIS-REx sample-return target",
+      "wiki": "101955_Bennu",
+      "tier3": true
+    },
+    {
+      "name": "Ryugu",
+      "type": "asteroid",
+      "parent": "Sun",
+      "diameterKm": 0.9,
+      "orbit": {
+        "semiMajorAxisAu": 1.189,
+        "eccentricity": 0.19,
+        "periodDays": 473.9,
+        "omegaDeg": 211,
+        "meanAnomalyDeg": 190
+      },
+      "color": [
+        0.34,
+        0.32,
+        0.3,
+        1
+      ],
+      "discovery": "Discovered by the LINEAR survey, 1999; Hayabusa2 sample-return target",
+      "wiki": "162173_Ryugu",
+      "tier3": true
+    },
+    {
+      "name": "Arrokoth",
+      "type": "tno",
+      "parent": "Sun",
+      "diameterKm": 35,
+      "orbit": {
+        "semiMajorAxisAu": 44.231,
+        "eccentricity": 0.0378,
+        "periodDays": 107374,
+        "omegaDeg": 183.861,
+        "meanAnomalyDeg": 315.242
+      },
+      "color": [
+        0.86,
+        0.44,
+        0.28,
+        1
+      ],
+      "discovery": "Discovered by the New Horizons KBO Search Team using Hubble, 2014; New Horizons flyby, 2019",
+      "wiki": "486958_Arrokoth",
+      "tier3": true
+    },
+    {
+      "name": "Chiron",
+      "type": "centaur",
+      "parent": "Sun",
+      "diameterKm": 200,
+      "orbit": {
+        "semiMajorAxisAu": 13.7,
+        "eccentricity": 0.3772,
+        "periodDays": 18523,
+        "omegaDeg": 339.4,
+        "meanAnomalyDeg": 180.7
+      },
+      "color": [
+        0.64,
+        0.6,
+        0.56,
+        1
+      ],
+      "discovery": "Discovered by Charles Kowal, 1977; centaur with comet-like activity",
+      "wiki": "2060_Chiron"
+    },
+    {
+      "name": "Chariklo",
+      "type": "centaur",
+      "parent": "Sun",
+      "diameterKm": 250,
+      "orbit": {
+        "semiMajorAxisAu": 15.822,
+        "eccentricity": 0.1721,
+        "periodDays": 22831,
+        "omegaDeg": 242,
+        "meanAnomalyDeg": 174
+      },
+      "color": [
+        0.58,
+        0.54,
+        0.5,
+        1
+      ],
+      "discovery": "Discovered by Spacewatch, 1997; first small Solar System body known to have rings",
+      "wiki": "10199_Chariklo"
+    }
+  ],
+  "bands": [
+    {
+      "kind": "belt",
+      "center": "Sun",
+      "innerRadiusAu": 2.06,
+      "outerRadiusAu": 3.27,
+      "color": [
+        0.72,
+        0.67,
+        0.6,
+        0.075
+      ]
+    },
+    {
+      "kind": "belt",
+      "center": "Sun",
+      "innerRadiusAu": 30,
+      "outerRadiusAu": 50,
+      "color": [
+        0.66,
+        0.74,
+        0.86,
+        0.055
+      ]
+    },
+    {
+      "kind": "ring",
+      "center": "Jupiter",
+      "innerRadiusAu": 0.000615,
+      "outerRadiusAu": 0.001511,
+      "color": [
+        0.88,
+        0.82,
+        0.72,
+        0.09
+      ]
+    },
+    {
+      "kind": "ring",
+      "center": "Saturn",
+      "innerRadiusAu": 0.000447,
+      "outerRadiusAu": 0.000937,
+      "color": [
+        0.93,
+        0.88,
+        0.76,
+        0.16
+      ]
+    },
+    {
+      "kind": "ring",
+      "center": "Uranus",
+      "innerRadiusAu": 0.000254,
+      "outerRadiusAu": 0.000342,
+      "color": [
+        0.72,
+        0.88,
+        0.92,
+        0.1
+      ]
+    },
+    {
+      "kind": "ring",
+      "center": "Neptune",
+      "innerRadiusAu": 0.000281,
+      "outerRadiusAu": 0.000421,
+      "color": [
+        0.7,
+        0.76,
+        0.95,
+        0.09
+      ]
+    },
+    {
+      "kind": "trojanCloud",
+      "center": "Sun",
+      "name": "Jupiter Trojan Cloud L4",
+      "semiMajorAxisAu": 5.2044,
+      "angularCenterDeg": 60,
+      "angularWidthDeg": 24,
+      "radialWidthAu": 0.45,
+      "color": [
+        0.9,
+        0.76,
+        0.48,
+        0.055
+      ],
+      "wiki": "Jupiter_trojan"
+    },
+    {
+      "kind": "trojanCloud",
+      "center": "Sun",
+      "name": "Jupiter Trojan Cloud L5",
+      "semiMajorAxisAu": 5.2044,
+      "angularCenterDeg": -60,
+      "angularWidthDeg": 24,
+      "radialWidthAu": 0.45,
+      "color": [
+        0.9,
+        0.76,
+        0.48,
+        0.055
+      ],
+      "wiki": "Jupiter_trojan"
+    }
+  ],
+  "derivedSystems": {
+    "plutoCharon": {
+      "separationKm": 19596,
+      "plutoMassKg": 1.303e+22,
+      "charonMassKg": 1.586e+21,
+      "plutoBarycentricSemiMajorAxisAu": 1.4609e-05,
+      "charonBarycentricSemiMajorAxisAu": 0.000116393
+    }
+  }
+}
